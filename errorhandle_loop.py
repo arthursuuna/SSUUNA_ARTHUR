@@ -7,3 +7,6 @@ while True:
         result = num1 / num2
     except ZeroDivisionError:
         print("Division by zero is not allowed.")
+    else:
+        print("Result of division is:", result)
+        break
